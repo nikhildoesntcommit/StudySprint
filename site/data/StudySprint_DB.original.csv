@@ -1,0 +1,11 @@
+ID,Task,Subject,Deadline,Status,Priority
+TSK-001,Review Chapter 4: Electric Circuits,Science,2026-10-15,Done,High
+TSK-002,Solve 10 algebra practice questions,Mathematics,2026-10-18,To do,High
+TSK-003,Revise the causes of World War I,History,2026-10-19,To do,Medium
+TSK-004,Retrieve 12 flashcards in Practice Lab,Science,2026-10-20,To do,Low
+TSK-005,Study Chapter 2 & 3 Mensuration,Mathematics,2026-10-21,To do,High
+TSK-006,Revise Optics & Light Wave diagrams,Science,2026-10-22,To do,Medium
+TSK-007,Practice Trigonometry Identities,Mathematics,2026-10-24,To do,High
+TSK-008,Read Literature Poem Analysis,Literature,2026-10-25,To do,Low
+TSK-009,Revise CSS Selectors & Web Layouts,Computer,2026-10-26,Done,Medium
+TSK-010,Map World Geography Trade Routes,Geography,2026-10-28,To do,Low

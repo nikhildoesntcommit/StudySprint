@@ -1,0 +1,18 @@
+{
+  "name": "StudySprint",
+  "short_name": "StudySprint",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#F6F0E3",
+  "theme_color": "#F6F0E3",
+  "description": "Your local-first study plan and exam practice app.",
+  "icons": [
+    {
+      "src": "./icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

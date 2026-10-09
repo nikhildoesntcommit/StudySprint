@@ -1,0 +1,24 @@
+{
+  "title": "ATSE Sample Test",
+  "examType": "ATSE",
+  "durationMinutes": 30,
+  "rules": {"navigation": true, "negativeMarking": false},
+  "sections": [
+    {"title":"Science","durationMinutes":30,"questions":[
+      {"type":"mcq","domain":"Electricity","prompt":"A coil with more turns carrying the same current is generally a stronger electromagnet because","options":["its resistance becomes zero","its magnetic effect increases","it becomes permanently magnetic","the cell gains mass"],"answer":1},
+      {"type":"mcq","domain":"Matter","prompt":"Which change speeds up dissolving sugar but does not necessarily increase the maximum amount that can dissolve?","options":["Stirring","Using less water","Adding extra sugar","Making a saturated solution"],"answer":0}
+    ]},
+    {"title":"Maths","durationMinutes":30,"questions":[
+      {"type":"mcq","domain":"Number Play","prompt":"The least number greater than 4000 divisible by both 9 and 11 is","options":["4050","4059","4071","4095"],"answer":1},
+      {"type":"mcq","domain":"Algebra","prompt":"The value of (103 multiplied by 97) is","options":["9991","9999","10000","10001"],"answer":0}
+    ]},
+    {"title":"Social Science","durationMinutes":30,"questions":[
+      {"type":"mcq","domain":"Electoral System","prompt":"In a first-past-the-post election, the winner is the candidate who receives","options":["exactly half the votes","the most votes in the constituency","votes from every party","approval from the Rajya Sabha"],"answer":1},
+      {"type":"mcq","domain":"Factors of Production","prompt":"A factory machine used to make goods is classified as","options":["land","labour","capital","entrepreneurship"],"answer":2}
+    ]},
+    {"title":"Logical Reasoning","durationMinutes":30,"questions":[
+      {"type":"mcq","domain":"Series","prompt":"Find the next term: 3, 8, 18, 38, 78, ___","options":["118","148","158","168"],"answer":2},
+      {"type":"mcq","domain":"Directions","prompt":"A walks 4 km north, 3 km east, 4 km south, then 6 km west. A is now","options":["3 km east of start","3 km west of start","6 km west of start","7 km west of start"],"answer":1}
+    ]}
+  ]
+}
