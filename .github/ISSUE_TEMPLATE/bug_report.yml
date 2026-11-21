@@ -1,0 +1,34 @@
+name: Bug report
+description: Something in StudySprint isn't working as expected
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What did you expect, and what happened instead?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Go to Flashcards
+        2. Click …
+        3. See …
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options: [Today, Planner, Calendar, Focus, Notes, Flashcards, Practice, Grades, Insights, AI Tutor, Settings, Other]
+  - type: input
+    id: browser
+    attributes:
+      label: Browser and device
+      placeholder: e.g. Safari 19 on iPhone, Chrome on Windows
+  - type: markdown
+    attributes:
+      value: Please don't paste your API key or personal data. A screenshot is often the most helpful thing you can add.

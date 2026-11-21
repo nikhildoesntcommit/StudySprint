@@ -1,0 +1,175 @@
+/* ==========================================================================
+   StudySprint design tokens
+   Themes: light · dark · sepia · midnight · contrast (+ system)
+   ========================================================================== */
+
+:root {
+  --bg: #f7f5f0;
+  --bg-tint: #efebe2;
+  --surface: #ffffff;
+  --surface-2: #f3f0ea;
+  --surface-3: #e9e5dc;
+  --border: #e4dfd4;
+  --border-strong: #cfc8b9;
+  --text: #1c1b18;
+  --text-2: #5b574e;
+  --text-3: #8d887c;
+  --shadow-color: 40 30 10;
+  --success: #2f9e6b;
+  --warning: #d18b16;
+  --danger: #d94848;
+  --info: #3e7bdd;
+  --scrim: rgb(20 18 12 / 0.38);
+  --code-bg: #f1eee6;
+
+  --accent: #5b4cf0;
+  --accent-ink: #ffffff;
+
+  --accent-soft: color-mix(in oklab, var(--accent) 12%, var(--surface));
+  --accent-softer: color-mix(in oklab, var(--accent) 6%, var(--surface));
+  --accent-text: color-mix(in oklab, var(--accent) 82%, var(--text));
+  --accent-line: color-mix(in oklab, var(--accent) 35%, var(--border));
+
+  --font-ui: 'Inter Variable', 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-display: 'Fraunces Variable', 'Fraunces', Georgia, 'Times New Roman', serif;
+  --font-mono: 'JetBrains Mono Variable', ui-monospace, 'SF Mono', Menlo, monospace;
+  --font-heading: var(--font-display);
+
+  --scale: 1;
+  --r-xs: 6px;
+  --r-sm: 9px;
+  --r-md: 12px;
+  --r-lg: 16px;
+  --r-xl: 22px;
+  --r-pill: 999px;
+  --pad: 20px;
+  --gap: 16px;
+  --row: 44px;
+
+  --shadow-sm: 0 1px 2px rgb(var(--shadow-color) / 0.06), 0 1px 1px rgb(var(--shadow-color) / 0.04);
+  --shadow-md: 0 4px 14px -4px rgb(var(--shadow-color) / 0.12), 0 2px 4px rgb(var(--shadow-color) / 0.05);
+  --shadow-lg: 0 24px 60px -18px rgb(var(--shadow-color) / 0.28), 0 6px 16px rgb(var(--shadow-color) / 0.08);
+  --ease: cubic-bezier(0.2, 0.8, 0.2, 1);
+  --dur: 180ms;
+
+  color-scheme: light;
+}
+
+/* ---- Accents ---- */
+[data-accent='iris']   { --accent: #5b4cf0; }
+[data-accent='ocean']  { --accent: #2b6fe6; }
+[data-accent='teal']   { --accent: #0d9488; }
+[data-accent='forest'] { --accent: #2f8a4f; }
+[data-accent='amber']  { --accent: #d97706; --accent-ink: #1c1206; }
+[data-accent='coral']  { --accent: #e5533d; }
+[data-accent='rose']   { --accent: #db2777; }
+[data-accent='grape']  { --accent: #9333ea; }
+[data-accent='slate']  { --accent: #475569; }
+
+/* ---- Themes ---- */
+[data-theme='dark'] {
+  --bg: #0e1014; --bg-tint: #14171d; --surface: #161a20; --surface-2: #1c2028; --surface-3: #252a34;
+  --border: #272c36; --border-strong: #3a414e;
+  --text: #eceef2; --text-2: #a7adba; --text-3: #6f7686;
+  --shadow-color: 0 0 0; --scrim: rgb(0 0 0 / 0.6); --code-bg: #1f2430;
+  --success: #3fbf86; --warning: #e9a23b; --danger: #f06363; --info: #5b9bff;
+  color-scheme: dark;
+}
+[data-theme='dark'][data-accent='iris'] { --accent: #7c70ff; }
+[data-theme='dark'][data-accent='ocean'] { --accent: #4d8dff; }
+[data-theme='dark'][data-accent='slate'] { --accent: #94a3b8; --accent-ink: #0e1014; }
+[data-theme='dark'][data-accent='forest'] { --accent: #3fae69; }
+
+[data-theme='midnight'] {
+  --bg: #0a0f1e; --bg-tint: #0f1628; --surface: #111a2e; --surface-2: #17223a; --surface-3: #1f2c48;
+  --border: #1f2b45; --border-strong: #31406a;
+  --text: #e8ecf8; --text-2: #9eabcb; --text-3: #66739a;
+  --shadow-color: 0 0 10; --scrim: rgb(2 5 15 / 0.65); --code-bg: #18223a;
+  --success: #3fbf86; --warning: #f0b04a; --danger: #f46a6a; --info: #6ea8ff;
+  color-scheme: dark;
+}
+[data-theme='midnight'][data-accent='iris'] { --accent: #8b80ff; }
+[data-theme='midnight'][data-accent='slate'] { --accent: #a5b4d4; --accent-ink: #0a0f1e; }
+
+[data-theme='sepia'] {
+  --bg: #f2e9d8; --bg-tint: #e9dec8; --surface: #fbf6ec; --surface-2: #f3eadb; --surface-3: #e8dcc6;
+  --border: #e0d2b8; --border-strong: #cbb894;
+  --text: #3a2e1f; --text-2: #6b5a43; --text-3: #998665;
+  --shadow-color: 70 45 10; --code-bg: #efe4cf;
+}
+
+[data-theme='contrast'] {
+  --bg: #ffffff; --bg-tint: #f2f2f2; --surface: #ffffff; --surface-2: #f2f2f2; --surface-3: #e4e4e4;
+  --border: #1a1a1a; --border-strong: #000; --text: #000; --text-2: #1f1f1f; --text-3: #3d3d3d;
+  --accent-soft: color-mix(in oklab, var(--accent) 18%, white);
+  --accent-text: color-mix(in oklab, var(--accent) 70%, black);
+  --code-bg: #f0f0f0;
+}
+
+/* ---- Fonts ---- */
+[data-font='atkinson'] { --font-ui: 'Atkinson Hyperlegible', ui-sans-serif, system-ui, sans-serif; }
+[data-font='lexend'] { --font-ui: 'Lexend Variable', 'Lexend', ui-sans-serif, system-ui, sans-serif; }
+[data-font='dyslexic'] { --font-ui: 'OpenDyslexic', 'Comic Sans MS', ui-sans-serif, sans-serif; --font-heading: var(--font-ui); }
+[data-font='serif'] { --font-ui: 'Fraunces Variable', Georgia, serif; }
+[data-font='system'] { --font-ui: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; }
+[data-serif='off'] { --font-heading: var(--font-ui); }
+
+[data-density='compact'] { --pad: 14px; --gap: 12px; --row: 38px; }
+[data-round='sharp'] { --r-xs: 2px; --r-sm: 3px; --r-md: 4px; --r-lg: 6px; --r-xl: 8px; }
+
+/* ==========================================================================
+   Reset & base
+   ========================================================================== */
+*, *::before, *::after { box-sizing: border-box; }
+html { font-size: calc(15px * var(--scale)); -webkit-text-size-adjust: 100%; background: var(--bg); }
+body {
+  margin: 0; min-height: 100vh; min-height: 100dvh;
+  background: var(--bg); color: var(--text);
+  font-family: var(--font-ui); line-height: 1.5;
+  font-feature-settings: 'cv11', 'ss01';
+  -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+[data-font='dyslexic'] body { line-height: 1.65; letter-spacing: 0.01em; }
+img, svg { display: block; max-width: 100%; }
+button, input, select, textarea { font: inherit; color: inherit; }
+button { cursor: pointer; background: none; border: 0; padding: 0; }
+a { color: var(--accent-text); text-decoration-thickness: 1px; text-underline-offset: 2px; }
+h1, h2, h3, h4 { margin: 0; font-family: var(--font-heading); font-weight: 600; letter-spacing: -0.015em; line-height: 1.2; }
+h1 { font-size: 1.9rem; font-variation-settings: 'opsz' 72, 'SOFT' 50; }
+h2 { font-size: 1.3rem; }
+h3 { font-size: 1.05rem; }
+p { margin: 0; }
+hr { border: 0; border-top: 1px solid var(--border); margin: 16px 0; }
+::selection { background: color-mix(in oklab, var(--accent) 28%, transparent); }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: var(--r-xs); }
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
+kbd {
+  font-family: var(--font-ui); font-size: 0.72rem; font-weight: 600; color: var(--text-2);
+  border: 1px solid var(--border); border-bottom-width: 2px; border-radius: 5px;
+  padding: 1px 5px; background: var(--surface); min-width: 18px; display: inline-block; text-align: center;
+}
+.tnum { font-variant-numeric: tabular-nums; }
+.muted { color: var(--text-2); }
+.faint { color: var(--text-3); }
+.small { font-size: 0.86rem; }
+.tiny { font-size: 0.76rem; }
+.mono { font-family: var(--font-mono); }
+.display { font-family: var(--font-display); font-variation-settings: 'opsz' 144; letter-spacing: -0.03em; }
+.eyebrow { font-size: 0.72rem; font-weight: 650; letter-spacing: 0.08em; text-transform: uppercase; color: var(--text-3); }
+.truncate { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; min-width: 0; }
+.row { display: flex; align-items: center; gap: 10px; }
+.row-wrap { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.stack { display: flex; flex-direction: column; gap: var(--gap); }
+.stack-sm { display: flex; flex-direction: column; gap: 8px; }
+.spacer { flex: 1; }
+.grow { flex: 1; min-width: 0; }
+.center { display: grid; place-items: center; }
+
+/* scrollbars */
+* { scrollbar-width: thin; scrollbar-color: var(--border-strong) transparent; }
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-thumb { background: var(--border-strong); border-radius: 10px; border: 3px solid transparent; background-clip: content-box; }
+
+@media (prefers-reduced-motion: reduce) { :root { --dur: 0ms; } *, *::before, *::after { animation-duration: 0.001ms !important; transition-duration: 0.001ms !important; } }
+[data-motion='reduce'] *, [data-motion='reduce'] *::before, [data-motion='reduce'] *::after { animation-duration: 0.001ms !important; transition-duration: 0.001ms !important; }

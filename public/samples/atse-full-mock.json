@@ -1,0 +1,2435 @@
+{
+  "title": "ATSE Full Syllabus Mock Test 1",
+  "examType": "ATSE",
+  "durationMinutes": 120,
+  "rules": {
+    "navigation": true,
+    "negativeMarking": false
+  },
+  "sections": [
+    {
+      "title": "Science",
+      "durationMinutes": 30,
+      "questions": [
+        {
+          "type": "mcq",
+          "domain": "Scientific Investigation",
+          "prompt": "A student investigates whether dough thickness affects the time a puri takes to puff. Which is the best controlled variable?",
+          "options": [
+            "Thickness of dough",
+            "Time taken to puff",
+            "Temperature of the oil",
+            "The conclusion"
+          ],
+          "answer": 2
+        },
+        {
+          "type": "mcq",
+          "domain": "Scientific Investigation",
+          "prompt": "Two groups test plant growth, but one group uses larger pots, more water, and more sunlight. Their results cannot isolate the effect of fertiliser because",
+          "options": [
+            "plants need no controls",
+            "several variables changed together",
+            "the sample is too large",
+            "fertiliser is a dependent variable"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "mcq",
+          "domain": "Scientific Investigation",
+          "prompt": "Repeating the same fair test five times mainly helps a student",
+          "options": [
+            "guarantee the hypothesis is true",
+            "increase reliability of the evidence",
+            "remove the need for measurement",
+            "change the independent variable"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "mcq",
+          "domain": "Microorganisms",
+          "prompt": "Which pairing is correctly matched?",
+          "options": [
+            "Yeast - causes malaria",
+            "Virus - reproduces independently on food",
+            "Bacterium - may help convert milk into curd",
+            "Fungus - is always harmful"
+          ],
+          "answer": 2
+        },
+        {
+          "type": "mcq",
+          "domain": "Microorganisms",
+          "prompt": "A doctor does not prescribe antibiotics for a common cold mainly because the cold is usually",
+          "options": [
+            "caused by a virus",
+            "caused by a deficiency disease",
+            "spread only by vectors",
+            "a non-communicable disease"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mcq",
+          "domain": "Microorganisms",
+          "prompt": "Food preserved by drying and salting lasts longer primarily because these methods",
+          "options": [
+            "turn microbes into useful fungi",
+            "reduce available water for microbial growth",
+            "remove all nutrients",
+            "convert food into a compound"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "mcq",
+          "domain": "Microorganisms",
+          "prompt": "In bread dough, bubbles make the dough rise because yeast releases",
+          "options": [
+            "oxygen",
+            "nitrogen",
+            "carbon dioxide",
+            "hydrogen"
+          ],
+          "answer": 2
+        },
+        {
+          "type": "mcq",
+          "domain": "Microorganisms",
+          "prompt": "Which statement best distinguishes a vector from a pathogen?",
+          "options": [
+            "A vector always causes non-communicable disease.",
+            "A pathogen carries a mosquito from one person to another.",
+            "A vector transmits a disease-causing organism; a pathogen causes disease.",
+            "Both are names for antibodies."
+          ],
+          "answer": 2
+        },
+        {
+          "type": "mcq",
+          "domain": "Microorganisms",
+          "prompt": "After vaccination, a second encounter with the same pathogen often produces a faster response because",
+          "options": [
+            "all body cells become pathogens",
+            "immune memory has formed",
+            "the pathogen becomes harmless in air",
+            "antibiotics are already present in blood"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "mcq",
+          "domain": "Health and Disease",
+          "prompt": "Which action most directly prevents a water-borne disease?",
+          "options": [
+            "Using an insect repellent",
+            "Drinking treated water",
+            "Wearing a woollen cap",
+            "Avoiding loud sound"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "mcq",
+          "domain": "Health and Disease",
+          "prompt": "Which is a non-communicable health risk strongly linked with long-term lifestyle?",
+          "options": [
+            "Diabetes",
+            "Cholera",
+            "Measles",
+            "Malaria"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mcq",
+          "domain": "Electricity",
+          "prompt": "In a circuit with a cell, bulb, switch, and wires, the bulb fails to glow when the switch is open because",
+          "options": [
+            "the cell has become a magnet",
+            "the circuit is incomplete",
+            "current flows too quickly",
+            "the bulb has no resistance"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "mcq",
+          "domain": "Electricity",
+          "prompt": "Four identical coils carry current. Which is expected to make the strongest electromagnet?",
+          "options": [
+            "Fewest turns, no core",
+            "Most turns, soft iron core",
+            "Fewest turns, wooden core",
+            "No current, soft iron core"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "mcq",
+          "domain": "Electricity",
+          "prompt": "A fuse protects a circuit because, during excessive current, its wire",
+          "options": [
+            "becomes an insulator without heating",
+            "melts and breaks the circuit",
+            "produces a stronger magnetic field",
+            "recharges the cell"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "mcq",
+          "domain": "Electricity",
+          "prompt": "If the direction of current through a coil is reversed, the coil’s magnetic poles",
+          "options": [
+            "interchange",
+            "disappear permanently",
+            "remain unchanged because current is unchanged",
+            "turn into electric charges"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mcq",
+          "domain": "Force and Pressure",
+          "prompt": "A cyclist moves forward because friction between tyre and road acts on the tyre mainly",
+          "options": [
+            "backward, preventing forward motion",
+            "forward, providing grip",
+            "upward, cancelling gravity",
+            "inward, producing magnetism"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "mcq",
+          "domain": "Force and Pressure",
+          "prompt": "A steel ship floats while a solid steel nail sinks mainly because the ship",
+          "options": [
+            "has no weight",
+            "has lower average density due to its shape and enclosed air",
+            "experiences no gravity",
+            "is made of a different element"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "mcq",
+          "domain": "Force and Pressure",
+          "prompt": "A person standing on one heel exerts more pressure on the ground than when standing on both feet because",
+          "options": [
+            "force is greater",
+            "contact area is smaller",
+            "gravity is absent on one foot",
+            "mass decreases"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "mcq",
+          "domain": "Force and Pressure",
+          "prompt": "An object has the same mass on Earth and on the Moon, but its weight is less on the Moon because",
+          "options": [
+            "its volume is smaller",
+            "Moon gravity is weaker",
+            "it contains less matter",
+            "friction disappears"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "mcq",
+          "domain": "Force and Pressure",
+          "prompt": "Two holes are made at different heights in a water-filled bottle. Water from the lower hole travels farther because",
+          "options": [
+            "liquid pressure increases with depth",
+            "water near the bottom has no mass",
+            "lower water is warmer",
+            "gravity is weaker near the bottom"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mcq",
+          "domain": "Pressure and Weather",
+          "prompt": "During a hot day at the coast, sea breeze usually blows from sea to land because",
+          "options": [
+            "sea water rises faster than land air",
+            "land heats faster, so air above it rises and lower pressure develops",
+            "the sea always has lower pressure at night only",
+            "Earth stops rotating in daytime"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "mcq",
+          "domain": "Pressure and Weather",
+          "prompt": "Holes in a large advertising banner reduce the chance of it tearing in strong wind because they",
+          "options": [
+            "increase the banner’s mass",
+            "reduce pressure difference across it",
+            "make wind stop completely",
+            "increase friction with air"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "mcq",
+          "domain": "Pressure and Weather",
+          "prompt": "Which condition is most important for a tropical cyclone to gain energy?",
+          "options": [
+            "Cold desert land",
+            "Warm ocean water supplying heat and moisture",
+            "Completely still air everywhere",
+            "Absence of low pressure"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "mcq",
+          "domain": "Matter",
+          "prompt": "Perfume spreads through a room even without a fan because gas particles",
+          "options": [
+            "are fixed in place",
+            "move randomly and diffuse",
+            "have no spaces between them",
+            "always move downward"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "mcq",
+          "domain": "Matter",
+          "prompt": "Which observation is best evidence that air is matter?",
+          "options": [
+            "It is colourless.",
+            "It can fill a balloon and make it heavier.",
+            "It cannot be seen.",
+            "It has no fixed shape."
+          ],
+          "answer": 1
+        },
+        {
+          "type": "mcq",
+          "domain": "Matter",
+          "prompt": "Heating a sealed, flexible balloon makes it expand mainly because gas particles",
+          "options": [
+            "disappear",
+            "move more slowly",
+            "move faster and push outward more",
+            "become solid"
+          ],
+          "answer": 2
+        },
+        {
+          "type": "mcq",
+          "domain": "Matter",
+          "prompt": "Rice flour takes the shape of its container, yet each grain is a solid because each grain",
+          "options": [
+            "has a fixed shape and volume",
+            "has no particles",
+            "has no mass",
+            "behaves exactly like water"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mcq",
+          "domain": "Materials and Chemistry",
+          "prompt": "Which can be separated by a magnet without forming a new substance?",
+          "options": [
+            "Iron filings mixed with sulfur powder",
+            "Water formed from hydrogen and oxygen",
+            "Carbon dioxide",
+            "Copper sulfate crystals"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mcq",
+          "domain": "Materials and Chemistry",
+          "prompt": "Which change most clearly indicates a chemical reaction?",
+          "options": [
+            "Crushing sugar",
+            "Dissolving salt in water",
+            "Iron and sulfur heated to form a new substance",
+            "Melting ice"
+          ],
+          "answer": 2
+        },
+        {
+          "type": "mcq",
+          "domain": "Materials and Chemistry",
+          "prompt": "Brass is classified as a mixture because",
+          "options": [
+            "it contains only one kind of atom",
+            "its components are physically combined in variable proportions",
+            "it cannot be separated by any physical method",
+            "it is always a non-metal"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "mcq",
+          "domain": "Materials and Chemistry",
+          "prompt": "Water is a compound rather than a mixture because its elements",
+          "options": [
+            "are present in any proportion",
+            "retain all original properties",
+            "are chemically combined in a fixed ratio",
+            "can be separated by filtration"
+          ],
+          "answer": 2
+        },
+        {
+          "type": "mcq",
+          "domain": "Solutions",
+          "prompt": "In salt water, salt is the solute because it",
+          "options": [
+            "dissolves in water",
+            "do the dissolving",
+            "is always present in greater amount",
+            "settles at the bottom after dissolving"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mcq",
+          "domain": "Solutions",
+          "prompt": "Which change speeds up dissolving sugar in water but does not necessarily increase the maximum amount that can dissolve?",
+          "options": [
+            "Stirring",
+            "Adding more water at the same temperature",
+            "Using a different solute",
+            "Forming a saturated solution"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mcq",
+          "domain": "Solutions",
+          "prompt": "A saturated sugar solution at a fixed temperature is given more sugar and stirred. If some sugar remains at the bottom, the best conclusion is",
+          "options": [
+            "no sugar dissolved at all",
+            "the solution cannot dissolve more sugar at that temperature",
+            "the water has become a solid",
+            "sugar has changed into an element"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "mcq",
+          "domain": "Solutions",
+          "prompt": "Oil forms the upper layer over water because oil and water are immiscible and oil is",
+          "options": [
+            "denser than water",
+            "less dense than water",
+            "a pure element",
+            "a gas"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "mcq",
+          "domain": "Light",
+          "prompt": "A plane mirror forms an image that is",
+          "options": [
+            "real, inverted, and smaller",
+            "virtual, erect, and same size",
+            "real, erect, and magnified",
+            "virtual, inverted, and diminished"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "mcq",
+          "domain": "Light",
+          "prompt": "A driver’s side-view mirror gives a wide field of view because it is",
+          "options": [
+            "concave and forms magnified images",
+            "convex and forms diminished images",
+            "plane and forms same-size images",
+            "a concave lens"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "mcq",
+          "domain": "Light",
+          "prompt": "A pencil partly immersed in water appears bent because light",
+          "options": [
+            "is absorbed by water",
+            "travels in a curved path in air only",
+            "refracts on moving between water and air",
+            "changes water into a mirror"
+          ],
+          "answer": 2
+        },
+        {
+          "type": "mcq",
+          "domain": "Light",
+          "prompt": "For a ray striking a plane mirror, the angle of incidence is measured between the incident ray and the",
+          "options": [
+            "mirror surface",
+            "reflected ray",
+            "normal to the mirror",
+            "image"
+          ],
+          "answer": 2
+        },
+        {
+          "type": "mcq",
+          "domain": "Earth and Universe",
+          "prompt": "The changing phases of the Moon are caused by",
+          "options": [
+            "Earth’s shadow covering the Moon every month",
+            "changing view of the sunlit half of the Moon",
+            "the Moon producing more and less light",
+            "changing distance between Earth and Sun every night"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "mcq",
+          "domain": "Earth and Universe",
+          "prompt": "A leap year is needed because Earth’s revolution around the Sun takes approximately",
+          "options": [
+            "exactly 360 days",
+            "exactly 365 days",
+            "365¼ days",
+            "12 lunar months exactly"
+          ],
+          "answer": 2
+        },
+        {
+          "type": "mcq",
+          "domain": "Earth and Universe",
+          "prompt": "Seasons are mainly caused by",
+          "options": [
+            "Earth’s axis being tilted during revolution",
+            "daily rotation of the Moon",
+            "clouds blocking sunlight",
+            "Earth being much closer to the Sun in summer everywhere"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mcq",
+          "domain": "Ecology and Environment",
+          "prompt": "Which sequence correctly shows a simple food chain?",
+          "options": [
+            "Hawk → snake → grass → grasshopper",
+            "Grass → grasshopper → frog → snake",
+            "Fungus → Sun → deer → grass",
+            "Soil → tiger → rabbit → plant"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "mcq",
+          "domain": "Ecology and Environment",
+          "prompt": "If all decomposers disappeared, the most direct long-term result would be",
+          "options": [
+            "nutrients would not return effectively to soil",
+            "all plants would immediately become consumers",
+            "sunlight would stop reaching Earth",
+            "producers would no longer need minerals"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mcq",
+          "domain": "Ecology and Environment",
+          "prompt": "In a food web, removing a top predator can increase some prey populations and then reduce plant populations. This shows",
+          "options": [
+            "each organism is independent",
+            "ecosystems have interconnected effects",
+            "energy increases at every level",
+            "plants are decomposers"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "mcq",
+          "domain": "Ecology and Environment",
+          "prompt": "Which is an abiotic factor?",
+          "options": [
+            "Bacteria",
+            "Grass",
+            "Sunlight",
+            "Deer"
+          ],
+          "answer": 2
+        },
+        {
+          "type": "mcq",
+          "domain": "Ecology and Environment",
+          "prompt": "Which combination best explains why Earth can support life?",
+          "options": [
+            "Liquid water, suitable atmosphere, energy source, and moderate conditions",
+            "Rocks, one moon, and no atmosphere",
+            "Only soil and high temperature",
+            "Oxygen alone"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mcq",
+          "domain": "Reproduction",
+          "prompt": "Sexual reproduction usually creates more variation than asexual reproduction because it",
+          "options": [
+            "combines genetic material from two parents",
+            "never involves cells",
+            "always produces identical offspring",
+            "happens only in plants"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mcq",
+          "domain": "Plant Biology",
+          "prompt": "Soil is essential for most land plants mainly because it provides",
+          "options": [
+            "only darkness",
+            "anchorage, water, air spaces, and minerals",
+            "only carbon dioxide",
+            "a permanent source of sunlight"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "mcq",
+          "domain": "Adaptation",
+          "prompt": "Which statement about adaptation is correct?",
+          "options": [
+            "An individual chooses a useful adaptation during its lifetime.",
+            "Adaptations are inherited features that can improve survival in an environment.",
+            "All adaptations are learned behaviours.",
+            "Adaptation means every organism changes in the same way."
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Mathematics",
+      "durationMinutes": 30,
+      "questions": [
+        {
+          "type": "mcq",
+          "domain": "Number Theory",
+          "prompt": "The least number by which 2^3*3^2*5 must be multiplied to make a perfect square is",
+          "options": [
+            "5",
+            "10",
+            "15",
+            "30"
+          ],
+          "answer": 3
+        },
+        {
+          "type": "mcq",
+          "domain": "Number Theory",
+          "prompt": "The least number by which 2^4*3^5*5^2 must be multiplied to make a perfect cube is",
+          "options": [
+            "6",
+            "12",
+            "18",
+            "60"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "mcq",
+          "domain": "Number Theory",
+          "prompt": "How many integers lie strictly between 49^2 and 50^2?",
+          "options": [
+            "49",
+            "50",
+            "97",
+            "98"
+          ],
+          "answer": 3
+        },
+        {
+          "type": "mcq",
+          "domain": "Number Theory",
+          "prompt": "A positive integer has exactly 15 factors. Which statement must be true?",
+          "options": [
+            "It is prime.",
+            "It is a perfect square.",
+            "It is divisible by 15.",
+            "It is a perfect cube."
+          ],
+          "answer": 1
+        },
+        {
+          "type": "mcq",
+          "domain": "Number Theory",
+          "prompt": "Which number cannot be a perfect square?",
+          "options": [
+            "1764",
+            "2401",
+            "3364",
+            "4512"
+          ],
+          "answer": 3
+        },
+        {
+          "type": "mcq",
+          "domain": "Algebra",
+          "prompt": "Without direct multiplication, 73^2 - 67^2 equals",
+          "options": [
+            "420",
+            "560",
+            "840",
+            "980"
+          ],
+          "answer": 2
+        },
+        {
+          "type": "mcq",
+          "domain": "Number Theory",
+          "prompt": "Which is both a perfect square and a perfect cube, but is not 1?",
+          "options": [
+            "16",
+            "36",
+            "64",
+            "81"
+          ],
+          "answer": 2
+        },
+        {
+          "type": "mcq",
+          "domain": "Exponents",
+          "prompt": "Simplify (3^8 * 9^3) / 27^4.",
+          "options": [
+            "1",
+            "3",
+            "9",
+            "27"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "mcq",
+          "domain": "Exponents",
+          "prompt": "The value of (0.2)^3 * (50)^3 is",
+          "options": [
+            "1",
+            "10",
+            "100",
+            "1000"
+          ],
+          "answer": 3
+        },
+        {
+          "type": "mcq",
+          "domain": "Exponents",
+          "prompt": "Which expression is equal to 2^-3?",
+          "options": [
+            "-8",
+            "-1/8",
+            "1/8",
+            "8"
+          ],
+          "answer": 2
+        },
+        {
+          "type": "mcq",
+          "domain": "Exponents",
+          "prompt": "The correct scientific notation for 0.000728 is",
+          "options": [
+            "7.28 * 10^-4",
+            "7.28 * 10^-3",
+            "72.8 * 10^-5",
+            "0.728 * 10^-3"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mcq",
+          "domain": "Exponents",
+          "prompt": "Which is greatest?",
+          "options": [
+            "2^10",
+            "3^6",
+            "4^4",
+            "5^4"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mcq",
+          "domain": "Exponents",
+          "prompt": "A sheet is 0.1 mm thick. If it could be folded perfectly in half 20 times, its thickness would be",
+          "options": [
+            "0.1 * 2^10 mm",
+            "0.1 * 2^20 mm",
+            "20.1 mm",
+            "0.1^20 mm"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "mcq",
+          "domain": "Number Theory",
+          "prompt": "The units digit of 7^103 is",
+          "options": [
+            "1",
+            "3",
+            "7",
+            "9"
+          ],
+          "answer": 2
+        },
+        {
+          "type": "mcq",
+          "domain": "Number Systems",
+          "prompt": "The decimal value of 243_5 is",
+          "options": [
+            "53",
+            "63",
+            "73",
+            "83"
+          ],
+          "answer": 2
+        },
+        {
+          "type": "mcq",
+          "domain": "Number Systems",
+          "prompt": "The base-3 representation of 58_10 is",
+          "options": [
+            "2011_3",
+            "2012_3",
+            "2101_3",
+            "2121_3"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "mcq",
+          "domain": "Number Systems",
+          "prompt": "Which numeral is invalid in base 6?",
+          "options": [
+            "154_6",
+            "305_6",
+            "426_6",
+            "550_6"
+          ],
+          "answer": 2
+        },
+        {
+          "type": "mcq",
+          "domain": "Number Systems",
+          "prompt": "If x is the decimal value of 101101_2, then x is",
+          "options": [
+            "41",
+            "43",
+            "45",
+            "47"
+          ],
+          "answer": 2
+        },
+        {
+          "type": "mcq",
+          "domain": "Number Systems",
+          "prompt": "In base b, 34_b = 25_10. Then b is",
+          "options": [
+            "6",
+            "7",
+            "8",
+            "9"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "mcq",
+          "domain": "Geometry",
+          "prompt": "The sum of interior angles of a quadrilateral is 360 degrees. If three angles are 88 degrees, 113 degrees, and 79 degrees, the fourth is",
+          "options": [
+            "70 degrees",
+            "80 degrees",
+            "90 degrees",
+            "100 degrees"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "mcq",
+          "domain": "Geometry",
+          "prompt": "A parallelogram has one angle 68 degrees. Its adjacent angle is",
+          "options": [
+            "22 degrees",
+            "68 degrees",
+            "112 degrees",
+            "136 degrees"
+          ],
+          "answer": 2
+        },
+        {
+          "type": "mcq",
+          "domain": "Geometry",
+          "prompt": "A quadrilateral has four equal sides and one right angle. It must be a",
+          "options": [
+            "kite",
+            "rectangle",
+            "rhombus",
+            "square"
+          ],
+          "answer": 3
+        },
+        {
+          "type": "mcq",
+          "domain": "Geometry",
+          "prompt": "Which condition alone proves that a parallelogram is a rectangle?",
+          "options": [
+            "Its diagonals bisect each other.",
+            "Its diagonals are equal.",
+            "Its opposite sides are equal.",
+            "Its opposite angles are equal."
+          ],
+          "answer": 1
+        },
+        {
+          "type": "mcq",
+          "domain": "Geometry",
+          "prompt": "A rhombus has diagonals 10 cm and 24 cm. Its side length is",
+          "options": [
+            "11 cm",
+            "12 cm",
+            "13 cm",
+            "17 cm"
+          ],
+          "answer": 2
+        },
+        {
+          "type": "mcq",
+          "domain": "Geometry",
+          "prompt": "Which statement is always true?",
+          "options": [
+            "Every kite is a parallelogram.",
+            "Every rectangle is a square.",
+            "Every square is a rhombus.",
+            "Every trapezium is a parallelogram."
+          ],
+          "answer": 2
+        },
+        {
+          "type": "mcq",
+          "domain": "Geometry",
+          "prompt": "In a square, the diagonals are",
+          "options": [
+            "unequal and parallel",
+            "equal, perpendicular, and bisect each other",
+            "equal but never perpendicular",
+            "perpendicular but never equal"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "mcq",
+          "domain": "Number Theory",
+          "prompt": "The smallest number greater than 4000 divisible by both 9 and 11 is",
+          "options": [
+            "4059",
+            "4050",
+            "4071",
+            "4095"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mcq",
+          "domain": "Number Theory",
+          "prompt": "If 31z5 is divisible by 9, the smallest possible digit z is",
+          "options": [
+            "0",
+            "1",
+            "5",
+            "9"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "mcq",
+          "domain": "Number Theory",
+          "prompt": "Which number is divisible by 11?",
+          "options": [
+            "91827",
+            "72534",
+            "58311",
+            "67122"
+          ],
+          "answer": 2
+        },
+        {
+          "type": "mcq",
+          "domain": "Number Theory",
+          "prompt": "A number leaves remainder 5 when divided by 8. What remainder does twice the number leave when divided by 8?",
+          "options": [
+            "0",
+            "1",
+            "2",
+            "5"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "mcq",
+          "domain": "Number Theory",
+          "prompt": "The digital root of 7^2026 is",
+          "options": [
+            "1",
+            "3",
+            "7",
+            "9"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mcq",
+          "domain": "Number Theory",
+          "prompt": "Which statement is always true?",
+          "options": [
+            "If a number is divisible by 6 and 4, it is divisible by 24.",
+            "Product of two consecutive integers is even.",
+            "Sum of two odd numbers is odd.",
+            "Every multiple of 9 is a multiple of 18."
+          ],
+          "answer": 1
+        },
+        {
+          "type": "mcq",
+          "domain": "Number Theory",
+          "prompt": "How many multiples of 36 lie strictly between 45000 and 47000?",
+          "options": [
+            "54",
+            "55",
+            "56",
+            "57"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "mcq",
+          "domain": "Number Theory",
+          "prompt": "The smallest 4-digit number divisible by 18 is",
+          "options": [
+            "1008",
+            "1000",
+            "1017",
+            "1026"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mcq",
+          "domain": "Algebra",
+          "prompt": "103 * 97 is",
+          "options": [
+            "9991",
+            "9999",
+            "10000",
+            "10001"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mcq",
+          "domain": "Algebra",
+          "prompt": "997^2 equals",
+          "options": [
+            "994009",
+            "994003",
+            "994006",
+            "993009"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mcq",
+          "domain": "Algebra",
+          "prompt": "If a + b = 15 and ab = 44, then a^2 + b^2 is",
+          "options": [
+            "137",
+            "181",
+            "225",
+            "269"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mcq",
+          "domain": "Algebra",
+          "prompt": "The value of (x + 5)^2 - (x - 5)^2 is",
+          "options": [
+            "10x",
+            "20x",
+            "25",
+            "4x^2"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "mcq",
+          "domain": "Algebra",
+          "prompt": "Which expression is equal to a^3 - b^3?",
+          "options": [
+            "(a - b)(a^2 - ab + b^2)",
+            "(a - b)(a^2 + ab + b^2)",
+            "(a + b)(a^2 - ab + b^2)",
+            "(a + b)(a^2 + ab + b^2)"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "mcq",
+          "domain": "Algebra",
+          "prompt": "If x - y = 8 and xy = 21, then x^2 + y^2 is",
+          "options": [
+            "22",
+            "64",
+            "106",
+            "128"
+          ],
+          "answer": 2
+        },
+        {
+          "type": "mcq",
+          "domain": "Algebra",
+          "prompt": "Which is greater?",
+          "options": [
+            "49 * 51",
+            "50^2",
+            "They are equal.",
+            "Cannot be determined."
+          ],
+          "answer": 1
+        },
+        {
+          "type": "mcq",
+          "domain": "Algebra",
+          "prompt": "The factorisation of 9p^2 - 25q^2 is",
+          "options": [
+            "(3p - 5q)^2",
+            "(3p + 5q)^2",
+            "(3p - 5q)(3p + 5q)",
+            "(9p - 25q)(p + q)"
+          ],
+          "answer": 2
+        },
+        {
+          "type": "mcq",
+          "domain": "Ratio and Proportion",
+          "prompt": "Rs. 840 is divided in the ratio 3:4:5. The largest share is",
+          "options": [
+            "Rs. 210",
+            "Rs. 280",
+            "Rs. 350",
+            "Rs. 420"
+          ],
+          "answer": 2
+        },
+        {
+          "type": "mcq",
+          "domain": "Ratio and Proportion",
+          "prompt": "A recipe needs rice and dal in ratio 5:2. If 1.4 kg rice is used, dal required is",
+          "options": [
+            "0.28 kg",
+            "0.40 kg",
+            "0.56 kg",
+            "0.70 kg"
+          ],
+          "answer": 2
+        },
+        {
+          "type": "mcq",
+          "domain": "Mensuration",
+          "prompt": "A map uses scale 1:25000. A road is 6 cm on the map. Its actual length is",
+          "options": [
+            "150 m",
+            "600 m",
+            "1.5 km",
+            "15 km"
+          ],
+          "answer": 2
+        },
+        {
+          "type": "mcq",
+          "domain": "Mensuration",
+          "prompt": "If the length and breadth of a rectangle are both increased by 20%, its area increases by",
+          "options": [
+            "20%",
+            "40%",
+            "44%",
+            "120%"
+          ],
+          "answer": 2
+        },
+        {
+          "type": "mcq",
+          "domain": "Arithmetic",
+          "prompt": "12 workers can complete a job in 15 days. At the same rate, 20 workers can complete it in",
+          "options": [
+            "8 days",
+            "9 days",
+            "12 days",
+            "25 days"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "mcq",
+          "domain": "Geometry",
+          "prompt": "Two similar triangles have corresponding side ratio 3:5. If the smaller triangle’s area is 54 cm^2, the larger triangle’s area is",
+          "options": [
+            "90 cm^2",
+            "120 cm^2",
+            "150 cm^2",
+            "180 cm^2"
+          ],
+          "answer": 2
+        },
+        {
+          "type": "mcq",
+          "domain": "Arithmetic",
+          "prompt": "Equal volumes of gold and water have mass ratio 37:2. If 3 litres of water have mass 3 kg, mass of 3 litres of gold is",
+          "options": [
+            "18.5 kg",
+            "37 kg",
+            "55.5 kg",
+            "74 kg"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "mcq",
+          "domain": "Arithmetic",
+          "prompt": "A car travels at constant speed. If it takes 4.5 hours to travel 315 km, how far will it travel in 2 hours 20 minutes?",
+          "options": [
+            "140 km",
+            "163 1/3 km",
+            "175 km",
+            "210 km"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Social Science",
+      "durationMinutes": 30,
+      "questions": [
+        {
+          "type": "mcq",
+          "domain": "Resources",
+          "prompt": "Which is the best example of a renewable resource being used unsustainably?",
+          "options": [
+            "Using solar panels to generate electricity",
+            "Harvesting a forest faster than trees can regrow",
+            "Recycling aluminium cans",
+            "Using wind to pump water"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "mcq",
+          "domain": "Resources",
+          "prompt": "Which statement best explains why groundwater can become scarce even though water is renewable?",
+          "options": [
+            "All water disappears after use.",
+            "Recharge may be slower than extraction.",
+            "Groundwater is a non-renewable mineral.",
+            "Rain cannot enter soil."
+          ],
+          "answer": 1
+        },
+        {
+          "type": "mcq",
+          "domain": "Resources",
+          "prompt": "A factory reuses packaging, repairs machines, and recovers materials from waste. This most closely follows a",
+          "options": [
+            "linear extraction economy",
+            "circular/regenerative economy",
+            "subsistence economy only",
+            "barter system"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "mcq",
+          "domain": "Resources",
+          "prompt": "Which pair correctly matches resource type and example?",
+          "options": [
+            "Non-renewable - wind",
+            "Renewable - mineral ore",
+            "Natural resource - fertile soil",
+            "Human-made resource - sunlight"
+          ],
+          "answer": 2
+        },
+        {
+          "type": "mcq",
+          "domain": "Resources",
+          "prompt": "A dam produces electricity but displaces communities and alters river ecosystems. The best conclusion is",
+          "options": [
+            "it is neither useful nor harmful",
+            "resource decisions involve trade-offs",
+            "all renewable energy has no social effects",
+            "displaced people are not affected by resources"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "mcq",
+          "domain": "Resources",
+          "prompt": "Which action most directly helps conserve soil?",
+          "options": [
+            "Removing tree cover on slopes",
+            "Overgrazing common land",
+            "Planting vegetation to reduce erosion",
+            "Dumping industrial waste"
+          ],
+          "answer": 2
+        },
+        {
+          "type": "mcq",
+          "domain": "Resources",
+          "prompt": "“A resource is available” and “a resource is accessible for fair use” are different because access can depend on",
+          "options": [
+            "only its colour",
+            "technology, cost, power, and location",
+            "whether it is alive",
+            "the number of letters in its name"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "mcq",
+          "domain": "History",
+          "prompt": "The Mughal Empire in India began after the defeat of the Lodi ruler Ibrahim by",
+          "options": [
+            "Muhammad Ghori",
+            "Babur",
+            "Qutb al-Din Aibak",
+            "Alauddin Khalji"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "mcq",
+          "domain": "History",
+          "prompt": "Which sequence is chronologically correct?",
+          "options": [
+            "First Battle of Panipat → Talikota → founding of Vijayanagara",
+            "founding of Vijayanagara → Talikota → First Battle of Panipat",
+            "founding of Vijayanagara → First Battle of Panipat → Talikota",
+            "Talikota → founding of Vijayanagara → First Battle of Panipat"
+          ],
+          "answer": 2
+        },
+        {
+          "type": "mcq",
+          "domain": "History",
+          "prompt": "Muhammad bin Tughlaq’s transfer of the capital toward Daulatabad was mainly intended to",
+          "options": [
+            "create a sea port",
+            "control a more central region of his empire",
+            "escape the British East India Company",
+            "establish the Mughal Empire"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "mcq",
+          "domain": "History",
+          "prompt": "The Battle of Talikota in 1565 is especially significant because it",
+          "options": [
+            "established the Delhi Sultanate",
+            "defeated the Vijayanagara forces and devastated their capital",
+            "ended all Deccan Sultanates",
+            "brought the British to Bengal"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "mcq",
+          "domain": "History",
+          "prompt": "Babur’s victory at the First Battle of Panipat is strongly linked with his use of",
+          "options": [
+            "only elephants",
+            "artillery and gunpowder tactics",
+            "naval blockades",
+            "universal adult franchise"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "mcq",
+          "domain": "History",
+          "prompt": "Akbar’s policy of sulh-i-kul is best described as",
+          "options": [
+            "forced conversion",
+            "peace and tolerance toward all faiths",
+            "a system of land tax",
+            "a military fortification"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "mcq",
+          "domain": "History",
+          "prompt": "The Ahom paik system connected",
+          "options": [
+            "religious conversion and foreign trade",
+            "state service and rights over land",
+            "voting and citizenship",
+            "only naval warfare and taxation"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "mcq",
+          "domain": "History",
+          "prompt": "Political maps changed in medieval India not only because of battles, but also because of",
+          "options": [
+            "trade networks, alliances, administration, and revenue systems",
+            "weather alone",
+            "maps being drawn differently",
+            "the disappearance of all regional powers"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mcq",
+          "domain": "History",
+          "prompt": "Before the rise of the Marathas, much of present-day Maharashtra was ruled from Devagiri by the",
+          "options": [
+            "Yadavas",
+            "Lodis",
+            "Ahoms",
+            "Cholas"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mcq",
+          "domain": "History",
+          "prompt": "The Bhakti saints strengthened a cultural foundation for Maratha society chiefly by",
+          "options": [
+            "founding European trading companies",
+            "composing devotional works in languages of ordinary people",
+            "replacing all local rulers",
+            "introducing artillery"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "mcq",
+          "domain": "History",
+          "prompt": "Shivaji’s political vision of self-rule is most closely associated with",
+          "options": [
+            "Swadeshi",
+            "Swarajya",
+            "Subsidiary Alliance",
+            "Doctrine of Lapse"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "mcq",
+          "domain": "History",
+          "prompt": "Guerrilla warfare is most effective for a smaller force when it uses",
+          "options": [
+            "slow movement in open fields only",
+            "speed, surprise, intelligence, and local terrain knowledge",
+            "the largest possible army",
+            "fixed defensive positions only"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "mcq",
+          "domain": "History",
+          "prompt": "Shivaji’s navy was strategically important because it",
+          "options": [
+            "eliminated all European powers permanently",
+            "helped protect the coast and contest sea power",
+            "was used only for fishing",
+            "had no connection with forts or trade routes"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "mcq",
+          "domain": "History",
+          "prompt": "The Treaty of Purandar was a setback for Shivaji because he had to",
+          "options": [
+            "surrender a significant portion of territory",
+            "accept British rule",
+            "give up all forts forever",
+            "abolish the Maratha army"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mcq",
+          "domain": "History",
+          "prompt": "Which statement best explains why forts mattered to Maratha strategy?",
+          "options": [
+            "They were only symbols with no military value.",
+            "They provided defensible bases, observation, and control over routes.",
+            "They made all diplomacy unnecessary.",
+            "They were built only on flat land."
+          ],
+          "answer": 1
+        },
+        {
+          "type": "mcq",
+          "domain": "History",
+          "prompt": "The East India Company became a political power in India mainly by combining",
+          "options": [
+            "trade, military force, diplomacy, and revenue control",
+            "agriculture with monsoon prediction",
+            "only cultural exchange",
+            "universal adult voting"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mcq",
+          "domain": "History",
+          "prompt": "Colonial land-revenue policies could harm peasants because they often",
+          "options": [
+            "guaranteed crops would never fail",
+            "imposed revenue demands despite uncertain harvests",
+            "removed all moneylenders",
+            "gave peasants complete political autonomy"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "mcq",
+          "domain": "History",
+          "prompt": "Which is the clearest example of colonial economic extraction?",
+          "options": [
+            "India exporting raw cotton and importing British manufactured cloth",
+            "Farmers saving seed for next season",
+            "A village repairing a well",
+            "Local artisans selling goods locally"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mcq",
+          "domain": "History",
+          "prompt": "Railways under colonial rule had mixed effects because they",
+          "options": [
+            "had no effect on movement",
+            "aided administration and extraction but later also helped communication",
+            "were designed only for village tourism",
+            "ended all inequality"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "mcq",
+          "domain": "History",
+          "prompt": "The 1857 uprising cannot be explained by one cause because it involved",
+          "options": [
+            "only a disagreement about maps",
+            "military, political, economic, social, and religious grievances",
+            "only a shortage of rainfall",
+            "only a single ruler’s ambition"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "mcq",
+          "domain": "History",
+          "prompt": "A policy that annexes a kingdom because its ruler has no biological heir is an example of",
+          "options": [
+            "universal franchise",
+            "Doctrine of Lapse",
+            "federalism",
+            "secularism"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "mcq",
+          "domain": "History",
+          "prompt": "“Infrastructure helped India” is incomplete as a statement about colonialism because it ignores",
+          "options": [
+            "the purpose, control, and unequal costs of the infrastructure",
+            "the existence of roads",
+            "that trains can move people",
+            "that machines use energy"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mcq",
+          "domain": "Civics",
+          "prompt": "Universal adult franchise means",
+          "options": [
+            "only taxpayers may vote",
+            "eligible adult citizens have equal voting rights",
+            "every child may vote",
+            "only graduates may vote"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "mcq",
+          "domain": "Civics",
+          "prompt": "In a first-past-the-post election, a candidate wins by receiving",
+          "options": [
+            "exactly half of all votes",
+            "the highest number of votes in that constituency",
+            "votes from every party",
+            "approval from the Rajya Sabha"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "mcq",
+          "domain": "Civics",
+          "prompt": "Which situation is possible under first-past-the-post?",
+          "options": [
+            "A candidate wins with fewer than half the total votes.",
+            "Every winner must have unanimous support.",
+            "All parties get seats exactly proportional to votes.",
+            "No candidate can win if three candidates contest."
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mcq",
+          "domain": "Civics",
+          "prompt": "The main purpose of a secret ballot is to",
+          "options": [
+            "stop citizens from voting",
+            "protect voters from pressure and allow free choice",
+            "reveal every voter’s choice",
+            "replace counting of votes"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "mcq",
+          "domain": "Civics",
+          "prompt": "Reserved constituencies are intended mainly to",
+          "options": [
+            "prevent all political competition",
+            "strengthen representation of historically marginalised groups",
+            "allow only one party to contest",
+            "remove the need for elections"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "mcq",
+          "domain": "Civics",
+          "prompt": "The Election Commission’s role is best described as",
+          "options": [
+            "choosing the winning party",
+            "conducting and supervising elections fairly",
+            "making all laws",
+            "appointing every Chief Minister"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "mcq",
+          "domain": "Civics",
+          "prompt": "A party can receive many votes across a country but fewer seats than another party because",
+          "options": [
+            "votes do not matter",
+            "seats depend on constituency-wise results",
+            "constituencies have no voters",
+            "elections use no counting"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "mcq",
+          "domain": "Civics",
+          "prompt": "Parliament of India consists of",
+          "options": [
+            "Lok Sabha and Supreme Court only",
+            "President, Lok Sabha, and Rajya Sabha",
+            "Prime Minister and Chief Ministers only",
+            "Election Commission and Cabinet only"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "mcq",
+          "domain": "Civics",
+          "prompt": "Which House is directly elected by citizens?",
+          "options": [
+            "Rajya Sabha",
+            "Lok Sabha",
+            "Supreme Court",
+            "Council of Ministers"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "mcq",
+          "domain": "Civics",
+          "prompt": "The Council of Ministers is collectively responsible to the",
+          "options": [
+            "Lok Sabha",
+            "Rajya Sabha only",
+            "Election Commission",
+            "Supreme Court only"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mcq",
+          "domain": "Civics",
+          "prompt": "If the government loses a vote of confidence in the Lok Sabha, it generally must",
+          "options": [
+            "ignore the vote",
+            "resign or seek a fresh mandate according to constitutional procedure",
+            "dissolve the Supreme Court",
+            "cancel all elections permanently"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "mcq",
+          "domain": "Civics",
+          "prompt": "Question Hour is valuable because it",
+          "options": [
+            "lets the executive avoid Parliament",
+            "enables members to question ministers and seek accountability",
+            "replaces all laws with speeches",
+            "allows judges to run ministries"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "mcq",
+          "domain": "Civics",
+          "prompt": "A bill becomes a law only after it",
+          "options": [
+            "is mentioned in a speech",
+            "completes the required legislative process and receives assent",
+            "is supported by one voter",
+            "is announced by a political party"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "mcq",
+          "domain": "Civics",
+          "prompt": "Which comparison is correct?",
+          "options": [
+            "President leads daily government; PM has only ceremonial role.",
+            "PM leads the government; President is constitutional head.",
+            "Parliament is the same institution as the Council of Ministers.",
+            "Rajya Sabha is directly elected by every citizen."
+          ],
+          "answer": 1
+        },
+        {
+          "type": "mcq",
+          "domain": "Economics",
+          "prompt": "In economics, “land” includes",
+          "options": [
+            "only agricultural fields",
+            "all natural resources used in production",
+            "only money in a bank",
+            "only workers’ skills"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "mcq",
+          "domain": "Economics",
+          "prompt": "Which is an example of capital in production?",
+          "options": [
+            "A factory machine used to make goods",
+            "Rainfall",
+            "A worker’s effort",
+            "A manager’s decision to start a business"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mcq",
+          "domain": "Economics",
+          "prompt": "Human capital refers to",
+          "options": [
+            "only the number of workers",
+            "skills, education, health, and capabilities that improve productivity",
+            "all natural resources",
+            "profits earned by a company"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "mcq",
+          "domain": "Economics",
+          "prompt": "Entrepreneurship is most directly associated with",
+          "options": [
+            "organising factors, innovating, and taking business decisions",
+            "providing only physical land",
+            "doing no work at all",
+            "replacing labour in every situation"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mcq",
+          "domain": "Economics",
+          "prompt": "A demographic dividend is most likely when a country has",
+          "options": [
+            "a large working-age population with education, health, and jobs",
+            "a large working-age population with no opportunities",
+            "only a large elderly population",
+            "no investment in people"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mcq",
+          "domain": "Economics",
+          "prompt": "Kaizen refers to",
+          "options": [
+            "continuous improvement",
+            "a tax on imports",
+            "a medieval military system",
+            "a method of voting"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mcq",
+          "domain": "Economics",
+          "prompt": "A farmer uses fertile soil, trained workers, a tractor, and plans a new irrigation business. The factor matched incorrectly is",
+          "options": [
+            "fertile soil - land",
+            "trained workers - human capital",
+            "tractor - labour",
+            "irrigation business plan - entrepreneurship"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "title": "Logical Reasoning",
+      "durationMinutes": 30,
+      "questions": [
+        {
+          "type": "mcq",
+          "domain": "Series",
+          "prompt": "Find the next term: 3, 8, 18, 38, 78, ___",
+          "options": [
+            "118",
+            "148",
+            "158",
+            "168"
+          ],
+          "answer": 2
+        },
+        {
+          "type": "mcq",
+          "domain": "Series",
+          "prompt": "Find the missing term: AZ, BY, CX, ___, EV",
+          "options": [
+            "DU",
+            "DW",
+            "EU",
+            "FV"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mcq",
+          "domain": "Series",
+          "prompt": "Find the next term: 2, 6, 12, 20, 30, ___",
+          "options": [
+            "36",
+            "40",
+            "42",
+            "44"
+          ],
+          "answer": 2
+        },
+        {
+          "type": "mcq",
+          "domain": "Series",
+          "prompt": "In the series 1, 4, 9, 16, 25, ___, the difference between the 8th and 7th terms is",
+          "options": [
+            "13",
+            "15",
+            "17",
+            "19"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "mcq",
+          "domain": "Classification",
+          "prompt": "Which does not belong? 8, 27, 64, 100, 125",
+          "options": [
+            "8",
+            "27",
+            "100",
+            "125"
+          ],
+          "answer": 2
+        },
+        {
+          "type": "mcq",
+          "domain": "Series",
+          "prompt": "Find the next pair: AB, DE, GH, JK, ___",
+          "options": [
+            "LM",
+            "MN",
+            "NO",
+            "OP"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "mcq",
+          "domain": "Alphabet Test",
+          "prompt": "If the letters in MONDAY are arranged alphabetically, which letter is fourth from the left?",
+          "options": [
+            "M",
+            "N",
+            "O",
+            "Y"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "mcq",
+          "domain": "Coding-Decoding",
+          "prompt": "If CAT is coded as 24 and DOG as 26 using the sum of alphabet positions, then BAT is coded as",
+          "options": [
+            "21",
+            "22",
+            "23",
+            "24"
+          ],
+          "answer": 2
+        },
+        {
+          "type": "mcq",
+          "domain": "Coding-Decoding",
+          "prompt": "In a code, SCHOOL is written as TDIPPM. How is BOOK written?",
+          "options": [
+            "CPPJ",
+            "CPNL",
+            "CPPL",
+            "CQQM"
+          ],
+          "answer": 2
+        },
+        {
+          "type": "mcq",
+          "domain": "Direction Sense",
+          "prompt": "If “south” is called “east”, “east” is called “north”, “north” is called “west”, and “west” is called “south”, the Sun rises in the",
+          "options": [
+            "east",
+            "north",
+            "south",
+            "west"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "mcq",
+          "domain": "Coding-Decoding",
+          "prompt": "In a code language, “red blue green” means “ka mi zo”; “blue black white” means “mi pa ru”. The code for blue is",
+          "options": [
+            "ka",
+            "mi",
+            "pa",
+            "ru"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "mcq",
+          "domain": "Coding-Decoding",
+          "prompt": "If A=1, B=2,...,Z=26, the value of CODE is",
+          "options": [
+            "25",
+            "27",
+            "29",
+            "31"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "mcq",
+          "domain": "Coding-Decoding",
+          "prompt": "If each letter of MANGO is replaced by the next letter, then the coded form is",
+          "options": [
+            "NBNHP",
+            "NBOHP",
+            "NBOPH",
+            "OBNHP"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "mcq",
+          "domain": "Blood Relations",
+          "prompt": "Pointing to a man, Riya says, “His mother is the only daughter of my mother.” The man is Riya’s",
+          "options": [
+            "brother",
+            "son",
+            "nephew",
+            "cousin"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "mcq",
+          "domain": "Blood Relations",
+          "prompt": "A is B’s sister. C is B’s mother. D is C’s father. D is A’s",
+          "options": [
+            "father",
+            "grandfather",
+            "maternal grandfather",
+            "uncle"
+          ],
+          "answer": 2
+        },
+        {
+          "type": "mcq",
+          "domain": "Blood Relations",
+          "prompt": "P is Q’s brother. R is P’s mother. S is R’s husband. S is Q’s",
+          "options": [
+            "brother",
+            "father",
+            "grandfather",
+            "uncle"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "mcq",
+          "domain": "Blood Relations",
+          "prompt": "If X is the brother of Y, Y is the daughter of Z, and Z is the wife of W, then W is X’s",
+          "options": [
+            "father",
+            "uncle",
+            "brother",
+            "grandfather"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mcq",
+          "domain": "Blood Relations",
+          "prompt": "“My father’s only son’s sister” is my",
+          "options": [
+            "mother",
+            "sister",
+            "aunt",
+            "daughter"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "mcq",
+          "domain": "Direction Sense",
+          "prompt": "A walks 4 km north, 3 km east, 4 km south, then 6 km west. A is now",
+          "options": [
+            "3 km east of start",
+            "3 km west of start",
+            "6 km west of start",
+            "7 km west of start"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "mcq",
+          "domain": "Direction Sense",
+          "prompt": "Facing north, Rahul turns right, then right, then left. He now faces",
+          "options": [
+            "north",
+            "east",
+            "south",
+            "west"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "mcq",
+          "domain": "Direction Sense",
+          "prompt": "A person walks 6 m north and 8 m east. The shortest distance from the start is",
+          "options": [
+            "10 m",
+            "12 m",
+            "14 m",
+            "48 m"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mcq",
+          "domain": "Direction Sense",
+          "prompt": "A is south of B. C is east of A. D is north of C. D is",
+          "options": [
+            "east of B",
+            "west of B",
+            "north of B",
+            "south of B"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mcq",
+          "domain": "Direction Sense",
+          "prompt": "If a person is facing west and turns 135 degrees clockwise, the person faces",
+          "options": [
+            "north-east",
+            "south-east",
+            "south-west",
+            "north-west"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mcq",
+          "domain": "Ranking",
+          "prompt": "In a row of 35 students, Meera is 12th from the left. Her rank from the right is",
+          "options": [
+            "23rd",
+            "24th",
+            "25th",
+            "26th"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "mcq",
+          "domain": "Seating Arrangement",
+          "prompt": "Five friends P, Q, R, S, T sit in a row facing north. Q is immediately right of P. R is immediately left of S. T is at the left end. If P is not next to T, who is in the middle?",
+          "options": [
+            "P",
+            "Q",
+            "R",
+            "S"
+          ],
+          "answer": 3
+        },
+        {
+          "type": "mcq",
+          "domain": "Ranking",
+          "prompt": "In a class, Aman is 18th from the top and 15th from the bottom. Number of students is",
+          "options": [
+            "31",
+            "32",
+            "33",
+            "34"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "mcq",
+          "domain": "Alphabet Test",
+          "prompt": "If all five letters A, B, C, D, E are arranged, how many are between B and E in the order A, C, B, D, E?",
+          "options": [
+            "0",
+            "1",
+            "2",
+            "3"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "mcq",
+          "domain": "Ranking",
+          "prompt": "P is taller than Q but shorter than R. S is shorter than Q. Who is tallest?",
+          "options": [
+            "P",
+            "Q",
+            "R",
+            "S"
+          ],
+          "answer": 2
+        },
+        {
+          "type": "mcq",
+          "domain": "Syllogisms",
+          "prompt": "Statements: All pencils are pens. Some pens are books. Conclusions: I. Some books are pencils. II. Some pens are pencils.",
+          "options": [
+            "Only I follows",
+            "Only II follows",
+            "Both follow",
+            "Neither follows"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "mcq",
+          "domain": "Statements & Conclusions",
+          "prompt": "Statements: All roses are flowers. Some flowers fade quickly. Conclusion: Some roses fade quickly.",
+          "options": [
+            "Follows",
+            "Does not follow",
+            "Both follow and do not follow",
+            "Cannot be determined from language"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "mcq",
+          "domain": "Syllogisms",
+          "prompt": "Statements: No A is B. All C are A. Conclusion: No C is B.",
+          "options": [
+            "Follows",
+            "Does not follow",
+            "Either follows or not follows",
+            "Both follow and do not follow"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mcq",
+          "domain": "Syllogisms",
+          "prompt": "Statements: Some cats are dogs. All dogs are animals. Conclusion: Some cats are animals.",
+          "options": [
+            "Follows",
+            "Does not follow",
+            "Only if all cats are dogs",
+            "Only if no cats are animals"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mcq",
+          "domain": "Analogies",
+          "prompt": "Book : Author :: Painting :",
+          "options": [
+            "gallery",
+            "artist",
+            "colour",
+            "frame"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "mcq",
+          "domain": "Classification",
+          "prompt": "Which word does not belong? Glacier, River, Lake, Mountain",
+          "options": [
+            "Glacier",
+            "River",
+            "Lake",
+            "Mountain"
+          ],
+          "answer": 3
+        },
+        {
+          "type": "mcq",
+          "domain": "Analogies",
+          "prompt": "If 12 is related to 144, then 15 is related to",
+          "options": [
+            "180",
+            "210",
+            "225",
+            "240"
+          ],
+          "answer": 2
+        },
+        {
+          "type": "mcq",
+          "domain": "Analogies",
+          "prompt": "Which pair has the same relation as “Bird : Nest”?",
+          "options": [
+            "Bee : Hive",
+            "Cow : Milk",
+            "Fish : Water",
+            "Dog : Bark"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mcq",
+          "domain": "Clocks",
+          "prompt": "A clock gains 10 minutes every 24 hours. If set correctly at 12 noon on Monday, it shows what time when actual time is 12 noon on Wednesday?",
+          "options": [
+            "12:10 pm",
+            "12:20 pm",
+            "12:30 pm",
+            "12:40 pm"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "mcq",
+          "domain": "Calendar",
+          "prompt": "If 1 January is Monday, 1 February in a non-leap year is",
+          "options": [
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "answer": 2
+        },
+        {
+          "type": "mcq",
+          "domain": "Clocks",
+          "prompt": "At what time between 3 and 4 will the hands of a clock be exactly opposite?",
+          "options": [
+            "3:16 4/11",
+            "3:27 3/11",
+            "3:32 8/11",
+            "3:49 1/11"
+          ],
+          "answer": 3
+        },
+        {
+          "type": "mcq",
+          "domain": "Clocks",
+          "prompt": "A clock loses 5 minutes every 12 hours. If it is correct at midnight, what will it show at actual noon the next day?",
+          "options": [
+            "11:50 am",
+            "11:55 am",
+            "12:00 noon",
+            "12:05 pm"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "mcq",
+          "domain": "Aptitude",
+          "prompt": "The average of 5 numbers is 18. If one number 26 is removed, the average of the remaining numbers is",
+          "options": [
+            "14",
+            "16",
+            "18",
+            "20"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "mcq",
+          "domain": "Aptitude",
+          "prompt": "A and B invest in ratio 3:5. Profit is Rs. 6400. B’s share is",
+          "options": [
+            "Rs. 2400",
+            "Rs. 3200",
+            "Rs. 4000",
+            "Rs. 4800"
+          ],
+          "answer": 2
+        },
+        {
+          "type": "mcq",
+          "domain": "Aptitude",
+          "prompt": "A train 180 m long crosses a pole in 12 seconds. Its speed is",
+          "options": [
+            "12 m/s",
+            "15 m/s",
+            "18 m/s",
+            "20 m/s"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "mcq",
+          "domain": "Aptitude",
+          "prompt": "If 3 pens cost Rs. 45, and a notebook costs twice as much as one pen, cost of 2 notebooks and 1 pen is",
+          "options": [
+            "Rs. 60",
+            "Rs. 75",
+            "Rs. 90",
+            "Rs. 105"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "mcq",
+          "domain": "Aptitude",
+          "prompt": "A number is increased by 20% and then decreased by 20%. The final value is",
+          "options": [
+            "unchanged",
+            "4% less than original",
+            "4% more than original",
+            "20% less than original"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "mcq",
+          "domain": "Venn Diagrams",
+          "prompt": "In a group of 80 students, 45 like Maths, 38 like Science, and 15 like neither. Number who like both is",
+          "options": [
+            "15",
+            "18",
+            "20",
+            "23"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "mcq",
+          "domain": "Cubes",
+          "prompt": "A cube is painted on all faces and cut into 27 equal small cubes. How many small cubes have exactly two painted faces?",
+          "options": [
+            "8",
+            "12",
+            "18",
+            "24"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "mcq",
+          "domain": "Calendar",
+          "prompt": "If today is Tuesday, what day will it be 100 days from today?",
+          "options": [
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "mcq",
+          "domain": "Coding-Decoding",
+          "prompt": "In a certain arrangement, every vowel is replaced by the next letter and every consonant by the previous letter. The word GAME becomes",
+          "options": [
+            "FBLF",
+            "HZND",
+            "HBLF",
+            "FZND"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mcq",
+          "domain": "Aptitude",
+          "prompt": "A father is four times as old as his son. In 12 years, he will be twice as old as his son. Son’s present age is",
+          "options": [
+            "4 years",
+            "6 years",
+            "8 years",
+            "12 years"
+          ],
+          "answer": 1
+        }
+      ]
+    }
+  ]
+}
