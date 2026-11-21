@@ -63,17 +63,20 @@ export const WIDGETS: { id: WidgetId; label: string; blurb: string }[] = [
   { id: 'quote', label: 'Study tip', blurb: 'An evidence-based study tip' },
 ];
 
+export const STYLE_REV = 1;
+
 export const DEFAULT_SETTINGS: Settings = {
   name: '',
   level: 'school',
   onboarded: false,
   theme: 'system',
-  accent: 'iris',
+  accent: 'rust',
   font: 'inter',
   serifHeadings: true,
   fontScale: 1,
   density: 'cozy',
-  roundness: 'soft',
+  roundness: 'sharp',
+  styleRev: STYLE_REV,
   reduceMotion: false,
   weekStart: 1,
   clock24: false,
@@ -104,6 +107,11 @@ export function emptyData(): StudyData {
 export function mergeSettings(s: Partial<Settings> | undefined): Settings {
   const d = structuredClone(DEFAULT_SETTINGS);
   if (!s) return d;
+  if ((s.styleRev ?? 0) < STYLE_REV) {
+    // v4.1 brought back the paper & ink look: move v4.0's light/dark onto it once.
+    const theme = s.theme === 'light' ? 'paper' : s.theme === 'dark' ? 'ink' : s.theme;
+    s = { ...s, theme, accent: 'rust', roundness: 'sharp', styleRev: STYLE_REV };
+  }
   const widgets = [...(s.widgets ?? [])].filter((w) => d.widgets.some((x) => x.id === w.id));
   for (const w of d.widgets) if (!widgets.some((x) => x.id === w.id)) widgets.push(w);
   return {

@@ -39,7 +39,7 @@ No account, no server, no tracking. Everything is stored in your browser. It wor
 | **AI Tutor** | Optional, powered by Claude using your own Anthropic API key. Chat in explain, Socratic, simple or exam-coach mode, and attach notes as context. Summarise notes, generate flashcards and generate practice quizzes. |
 
 ### Make it yours
-- Themes: light, dark, midnight, sepia, high-contrast, or follow your system. Nine accent colours.
+- Themes: **paper & ink** (the default: cream paper, ink outlines, solid colours) with a matching dark **ink** version, plus clean light, clean dark, midnight, sepia and high-contrast, or follow your system. Ten accent colours.
 - Reading fonts: Inter, **Atkinson Hyperlegible**, **Lexend** and **OpenDyslexic**, all bundled so they work offline. Text size from 85% to 130%, compact or comfortable density, rounded or sharp corners, and a reduced-motion option.
 - Turn off any module you don't use. Your subjects, colours, emojis and weekly goals colour-code everything.
 - Keyboard-first: <kbd>⌘/Ctrl K</kbd> opens the command palette and search, <kbd>N</kbd> creates a new task, <kbd>F</kbd> starts or pauses the timer, <kbd>R</kbd> reviews cards, <kbd>1–9</kbd> switches module, and <kbd>?</kbd> lists every shortcut.

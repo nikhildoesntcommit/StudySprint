@@ -96,11 +96,15 @@ label.card-preview { cursor: pointer; }
 /* ==========================================================================
    Today
    ========================================================================== */
-.widget-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: var(--gap); grid-auto-flow: dense; align-items: start; }
-.widget.span-2 { grid-column: span 2; }
-.widget.row-2 { grid-row: span 2; }
-@media (max-width: 1100px) { .widget-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
-@media (max-width: 700px) { .widget-grid { grid-template-columns: minmax(0, 1fr); } .widget.span-2 { grid-column: auto; } .widget.row-2 { grid-row: auto; } }
+.widget-grid { display: grid; grid-template-columns: minmax(0, 1.7fr) minmax(0, 1fr); gap: var(--gap); align-items: start; }
+/* Only one kind of widget switched on: flow them into balanced columns instead */
+.widget-grid[data-lanes='1'] { display: block; columns: 340px; column-gap: var(--gap); }
+.widget-grid[data-lanes='1'] .widget-lane { display: block; }
+.widget-grid[data-lanes='1'] .widget-slot { break-inside: avoid; margin-bottom: var(--gap); }
+.widget-lane { display: flex; flex-direction: column; gap: var(--gap); min-width: 0; }
+.widget-slot { min-width: 0; }
+/* One column on narrow screens, in the order chosen in Customise */
+@media (max-width: 900px) { .widget-grid { grid-template-columns: minmax(0, 1fr); } .widget-grid:not([data-lanes='1']) .widget-lane { display: contents; } }
 .agenda-progress { display: flex; align-items: center; gap: 12px; margin-bottom: 10px; }
 .agenda-progress .bar { flex: 1; }
 .agenda-event { display: flex; align-items: center; gap: 10px; padding: 10px 12px; border-radius: var(--r-sm); background: var(--accent-soft); color: var(--accent-text); margin-bottom: 8px; cursor: pointer; font-size: 0.9rem; }

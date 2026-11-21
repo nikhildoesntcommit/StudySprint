@@ -12,6 +12,7 @@ import 'katex/dist/katex.min.css';
 import './styles/base.css';
 import './styles/components.css';
 import './styles/pages.css';
+import './styles/paper.css';
 import App from './App';
 
 createRoot(document.getElementById('root')!).render(

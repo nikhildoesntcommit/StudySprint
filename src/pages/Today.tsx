@@ -36,6 +36,8 @@ export default function Today() {
   if (nextExam) summary.push(`${nextExam.title} ${daysBetween(t, nextExam.date) === 0 ? 'is today' : `in ${plural(daysBetween(t, nextExam.date), 'day')}`}`);
 
   const widgets = s.settings.widgets.filter((w) => w.on && widgetAvailable(w.id, modules));
+  // Two independent columns that stack their own widgets, so a tall widget never leaves a hole beside a short one.
+  const lanes = { main: widgets.filter((w) => MAIN_LANE.has(w.id)), side: widgets.filter((w) => !MAIN_LANE.has(w.id)) };
 
   return (
     <div className="page wide">
@@ -53,14 +55,20 @@ export default function Today() {
 
       {modules.planner && <div style={{ marginBottom: 18 }}><QuickAdd /></div>}
 
-      <div className="widget-grid">
-        {widgets.map((w) => <Widget key={w.id} id={w.id} />)}
+      <div className="widget-grid" data-lanes={lanes.main.length && lanes.side.length ? 2 : 1}>
+        {(['main', 'side'] as const).map((lane) => lanes[lane].length > 0 && (
+          <div key={lane} className={`widget-lane ${lane}`}>
+            {lanes[lane].map((w) => <div key={w.id} className="widget-slot" style={{ order: widgets.indexOf(w) }}><Widget id={w.id} /></div>)}
+          </div>
+        ))}
         {widgets.length === 0 && <div className="panel" style={{ gridColumn: '1 / -1' }}><Empty icon={<SlidersHorizontal />} title="Your dashboard is empty" action={<Button onClick={() => setCustomise(true)}>Choose widgets</Button>}>Pick the widgets you want to see every day.</Empty></div>}
       </div>
       <CustomiseDialog open={customise} onClose={() => setCustomise(false)} />
     </div>
   );
 }
+
+const MAIN_LANE = new Set<WidgetId>(['agenda', 'countdown', 'nextClass', 'week', 'notes']);
 
 function widgetAvailable(id: WidgetId, m: Record<string, boolean>) {
   const need: Partial<Record<WidgetId, string>> = { agenda: 'planner', focus: 'focus', reviews: 'cards', countdown: 'calendar', nextClass: 'calendar', grades: 'grades', notes: 'notes' };
@@ -104,7 +112,7 @@ function AgendaWidget() {
   const open = useUI.getState().editTask;
   const total = b.today.length + doneToday.length;
   return (
-    <W title="Today’s agenda" icon={<ListTodo />} className="span-2 row-2"
+    <W title="Today’s agenda" icon={<ListTodo />}
       action={<a className="btn ghost sm" href={href('/planner')}>Planner <ArrowRight /></a>}>
       {total > 0 && (
         <div className="agenda-progress">
@@ -296,7 +304,7 @@ function WeekWidget() {
   const weekSessions = sessions.filter((x) => ymd(new Date(x.start)) >= days[0]);
   const bySubj = subjects.map((s) => ({ s, m: weekSessions.filter((x) => x.subjectId === s.id).reduce((a, x) => a + x.minutes, 0) })).filter((x) => x.m > 0).sort((a, b) => b.m - a.m);
   return (
-    <W title="This week" icon={<BarChart3 />} className="span-2" action={<a className="btn ghost sm" href={href('/insights')}>Insights <ArrowRight /></a>}>
+    <W title="This week" icon={<BarChart3 />} action={<a className="btn ghost sm" href={href('/insights')}>Insights <ArrowRight /></a>}>
       <div className="week-wrap">
         <div style={{ flex: '1 1 260px' }}>
           <div className="row" style={{ alignItems: 'baseline', marginBottom: 10 }}><span className="display tnum" style={{ fontSize: '1.7rem' }}>{formatDuration(total)}</span><span className="muted small">studied this week</span></div>

@@ -86,15 +86,17 @@ function Profile() {
 }
 
 const THEMES: { id: ThemeId; label: string; colors: [string, string, string] }[] = [
-  { id: 'system', label: 'System', colors: ['#f7f5f0', '#0e1014', '#5b4cf0'] },
-  { id: 'light', label: 'Light', colors: ['#f7f5f0', '#ffffff', '#1c1b18'] },
-  { id: 'dark', label: 'Dark', colors: ['#0e1014', '#161a20', '#eceef2'] },
+  { id: 'system', label: 'Auto', colors: ['#f6f0e3', '#0d1320', '#c84b31'] },
+  { id: 'paper', label: 'Paper', colors: ['#f6f0e3', '#fffdf7', '#101827'] },
+  { id: 'ink', label: 'Ink', colors: ['#0d1320', '#151d2e', '#f6f0e3'] },
+  { id: 'light', label: 'Clean light', colors: ['#f7f5f0', '#ffffff', '#1c1b18'] },
+  { id: 'dark', label: 'Clean dark', colors: ['#0e1014', '#161a20', '#eceef2'] },
   { id: 'midnight', label: 'Midnight', colors: ['#0a0f1e', '#111a2e', '#e8ecf8'] },
   { id: 'sepia', label: 'Sepia', colors: ['#f2e9d8', '#fbf6ec', '#3a2e1f'] },
   { id: 'contrast', label: 'High contrast', colors: ['#ffffff', '#ffffff', '#000000'] },
 ];
 const ACCENTS: { id: AccentId; hex: string }[] = [
-  { id: 'iris', hex: '#5b4cf0' }, { id: 'ocean', hex: '#2b6fe6' }, { id: 'teal', hex: '#0d9488' }, { id: 'forest', hex: '#2f8a4f' },
+  { id: 'rust', hex: '#c84b31' }, { id: 'iris', hex: '#5b4cf0' }, { id: 'ocean', hex: '#2b6fe6' }, { id: 'teal', hex: '#0d9488' }, { id: 'forest', hex: '#2f8a4f' },
   { id: 'amber', hex: '#d97706' }, { id: 'coral', hex: '#e5533d' }, { id: 'rose', hex: '#db2777' }, { id: 'grape', hex: '#9333ea' }, { id: 'slate', hex: '#475569' },
 ];
 const FONTS: { id: FontId; label: string; family: string; blurb: string }[] = [

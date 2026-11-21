@@ -1,6 +1,7 @@
 /* ==========================================================================
    StudySprint design tokens
-   Themes: light · dark · sepia · midnight · contrast (+ system)
+   Themes: paper · ink (the default "paper & ink" look, see paper.css)
+           light · dark · sepia · midnight · contrast (+ system)
    ========================================================================== */
 
 :root {
@@ -56,6 +57,7 @@
 }
 
 /* ---- Accents ---- */
+[data-accent='rust']   { --accent: #c84b31; }
 [data-accent='iris']   { --accent: #5b4cf0; }
 [data-accent='ocean']  { --accent: #2b6fe6; }
 [data-accent='teal']   { --accent: #0d9488; }
@@ -67,6 +69,28 @@
 [data-accent='slate']  { --accent: #475569; }
 
 /* ---- Themes ---- */
+/* Paper & ink: cream paper, ink outlines, solid rust / yellow / orange / green */
+[data-theme='paper'] {
+  --bg: #f6f0e3; --bg-tint: #efe6d2; --surface: #fffdf7; --surface-2: #f6f0e3; --surface-3: #e9dfc8;
+  --border: #101827; --border-strong: #101827;
+  --text: #101827; --text-2: #4b4b55; --text-3: #73737d;
+  --shadow-color: 16 24 39; --scrim: rgb(16 24 39 / 0.45); --code-bg: #f3ecdc;
+  --success: #059669; --warning: #d97706; --danger: #c84b31; --info: #0284c7;
+  --yellow: #f2cf4a; --solid: #101827; --on-solid: #f2cf4a;
+}
+[data-theme='ink'] {
+  --bg: #0d1320; --bg-tint: #121a2a; --surface: #151d2e; --surface-2: #1b2538; --surface-3: #263249;
+  --border: #d9d0bb; --border-strong: #f6f0e3;
+  --text: #f6f0e3; --text-2: #c3bba8; --text-3: #8f8a7c;
+  --shadow-color: 0 0 0; --scrim: rgb(0 0 0 / 0.6); --code-bg: #1d2739;
+  --success: #34b886; --warning: #f0a33a; --danger: #e5694f; --info: #45aee8;
+  --yellow: #f2cf4a; --solid: #f2cf4a; --on-solid: #101827;
+  color-scheme: dark;
+}
+[data-theme='ink'][data-accent='rust'] { --accent: #e5694f; }
+[data-theme='ink'][data-accent='iris'] { --accent: #7c70ff; }
+[data-theme='ink'][data-accent='slate'] { --accent: #94a3b8; --accent-ink: #0d1320; }
+
 [data-theme='dark'] {
   --bg: #0e1014; --bg-tint: #14171d; --surface: #161a20; --surface-2: #1c2028; --surface-3: #252a34;
   --border: #272c36; --border-strong: #3a414e;

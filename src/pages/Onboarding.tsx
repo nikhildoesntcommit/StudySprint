@@ -10,7 +10,7 @@ import { Button, Switch, toast } from '../components/ui';
 import { BrandMark, MODULE_ICON } from '../components/Shell';
 
 const ACCENTS: { id: AccentId; hex: string }[] = [
-  { id: 'iris', hex: '#5b4cf0' }, { id: 'ocean', hex: '#2b6fe6' }, { id: 'teal', hex: '#0d9488' }, { id: 'forest', hex: '#2f8a4f' },
+  { id: 'rust', hex: '#c84b31' }, { id: 'iris', hex: '#5b4cf0' }, { id: 'ocean', hex: '#2b6fe6' }, { id: 'teal', hex: '#0d9488' }, { id: 'forest', hex: '#2f8a4f' },
   { id: 'amber', hex: '#d97706' }, { id: 'coral', hex: '#e5533d' }, { id: 'rose', hex: '#db2777' }, { id: 'grape', hex: '#9333ea' },
 ];
 
@@ -133,7 +133,7 @@ export default function Onboarding() {
             <h2 className="display">Make it yours</h2>
             <div className="label">Theme</div>
             <div className="choice-grid three">
-              {([['system', '🌗', 'Auto'], ['light', '☀️', 'Light'], ['dark', '🌙', 'Dark'], ['midnight', '🌌', 'Midnight'], ['sepia', '📜', 'Sepia'], ['contrast', '◐', 'High contrast']] as [ThemeId, string, string][]).map(([id, e, l]) => (
+              {([['system', '🌗', 'Auto'], ['paper', '📄', 'Paper'], ['ink', '🖋️', 'Ink'], ['light', '☀️', 'Clean light'], ['dark', '🌙', 'Clean dark'], ['sepia', '📜', 'Sepia']] as [ThemeId, string, string][]).map(([id, e, l]) => (
                 <button key={id} type="button" className="choice" aria-pressed={settings.theme === id} onClick={() => update({ theme: id })}><span className="choice-emoji">{e}</span>{l}</button>
               ))}
             </div>

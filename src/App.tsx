@@ -41,8 +41,10 @@ function useThemeAttributes() {
   }, []);
   useEffect(() => {
     const el = document.documentElement;
-    const theme = s.theme === 'system' ? (systemDark ? 'dark' : 'light') : s.theme;
+    const theme = s.theme === 'system' ? (systemDark ? 'ink' : 'paper') : s.theme;
+    const look = theme === 'paper' || theme === 'ink' ? 'paper' : 'clean';
     el.dataset.theme = theme;
+    el.dataset.look = look;
     el.dataset.accent = s.accent;
     el.dataset.font = s.font;
     el.dataset.serif = s.serifHeadings ? 'on' : 'off';
@@ -50,7 +52,7 @@ function useThemeAttributes() {
     el.dataset.round = s.roundness;
     el.dataset.motion = s.reduceMotion ? 'reduce' : 'full';
     el.style.setProperty('--scale', String(s.fontScale));
-    try { localStorage.setItem('ss.theme', JSON.stringify({ theme, accent: s.accent })); } catch { /* private mode */ }
+    try { localStorage.setItem('ss.theme', JSON.stringify({ theme, accent: s.accent, look, round: s.roundness })); } catch { /* private mode */ }
     const bg = getComputedStyle(el).getPropertyValue('--bg').trim();
     document.querySelectorAll('meta[name="theme-color"]').forEach((m) => m.setAttribute('content', bg));
   }, [s.theme, s.accent, s.font, s.serifHeadings, s.density, s.roundness, s.reduceMotion, s.fontScale, systemDark]);

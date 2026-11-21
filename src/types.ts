@@ -244,8 +244,8 @@ export type ModuleId =
   | 'today' | 'planner' | 'calendar' | 'focus' | 'notes' | 'cards'
   | 'practice' | 'grades' | 'insights' | 'tutor';
 
-export type ThemeId = 'light' | 'dark' | 'sepia' | 'midnight' | 'contrast' | 'system';
-export type AccentId = 'iris' | 'ocean' | 'teal' | 'forest' | 'amber' | 'coral' | 'rose' | 'grape' | 'slate';
+export type ThemeId = 'paper' | 'ink' | 'light' | 'dark' | 'sepia' | 'midnight' | 'contrast' | 'system';
+export type AccentId = 'rust' | 'iris' | 'ocean' | 'teal' | 'forest' | 'amber' | 'coral' | 'rose' | 'grape' | 'slate';
 export type FontId = 'inter' | 'atkinson' | 'lexend' | 'dyslexic' | 'serif' | 'system';
 
 export type WidgetId =
@@ -267,6 +267,8 @@ export interface Settings {
   fontScale: number; // 0.9 .. 1.25
   density: 'cozy' | 'compact';
   roundness: 'soft' | 'sharp';
+  /** Appearance revision; bumped when the default look changes so saved settings can be moved onto it once. */
+  styleRev?: number;
   reduceMotion: boolean;
   weekStart: 0 | 1;
   clock24: boolean;
