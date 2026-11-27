@@ -52,16 +52,7 @@ No account, no server, no tracking. Everything is stored in your browser. It wor
 ## Exam file format
 Practice papers use a portable JSON format (compatible with the earlier Test Book app). See [`docs/exam-file-format.md`](docs/exam-file-format.md), or download a template from **Practice → Import**.
 
-## Development
-
-```bash
-npm install
-npm run dev        # local dev server
-npm test           # unit tests (scheduler, quick-add parser, exam engine, streaks)
-npm run build      # type-check and production build to dist/
-```
-
-Built with React, TypeScript and Vite. State is kept with Zustand and persisted to IndexedDB. Markdown is rendered with marked, DOMPurify and KaTeX, and icons come from lucide. Each push to `main` is tested, built and deployed to GitHub Pages by `.github/workflows/main.yml`.
+Built with React, TypeScript and Vite. State is kept with Zustand and persisted to IndexedDB. Markdown is rendered with marked, DOMPurify and KaTeX, and icons come from lucide. Built and deployed to GitHub Pages by `.github/workflows/main.yml`.
 
 ```
 src/
@@ -75,4 +66,4 @@ public/        service worker, manifest, icons, sample exam papers
 
 ## History
 
-StudySprint began as a School AI Club project (v1–v3), with a separate offline exam tool called Test Book. Version 4 is a ground-up rebuild that brings both together into one app.
+StudySprint is a submission for my school's AI club project #1. It is fully made by AI with tools like Claude and Codex.
